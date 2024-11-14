@@ -200,9 +200,9 @@ sudo apt install haproxy
        server server2 127.0.0.1:8002 weight 3
        server server3 127.0.0.1:8003 weight 4
 ```
-9. Перезапуск HAProxy для применения изменений  
-`sudo systemctl restart haproxy`
-10. Добавьте запись в файл hosts
-`127.0.0.1 example.local`
-11. Проверка настройки  
-`curl http://localhost:8000`  
+9. Перезапуск HAProxy для применения изменений   
+`sudo systemctl restart haproxy`  
+10. Добавление записи в файл hosts  
+`127.0.0.1 example.local`  
+11. Проверка настройки   
+`curl http://localhost:8000`   
